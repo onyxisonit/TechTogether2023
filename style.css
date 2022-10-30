@@ -21,15 +21,18 @@ html, body {
   box-sizing:border-box;
 }
 .header h1 {
-  font-size: 40px;
+  font-size: 80px;
+  padding: 50px;
 }
 .header p{
-  font-size: 20px;
+  font-size: 40px;
+  padding: 50px;
 }
 
 .navbar {
   overflow: hidden;
   background-color: black;
+  font-size: 35px;
 
 }
 .home {
@@ -50,16 +53,20 @@ body {
 }
 
 .navbar a{
-  float: center;
+  float: left;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20 px;
+  padding: 50px;
   text-decoration: none;
+  text-orientation:upright;
+  writing-mode: vertical-rl;
+  margin-left:70px;
 }
 
 .navbar a:hover{
-  background-color: #152238;
+  zoom: 110%;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
   color: white;
 }
 
