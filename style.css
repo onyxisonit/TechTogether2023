@@ -220,8 +220,9 @@ body {
 /* Here using -webkit, we make angle
 of 45 degree of falling star */
 .sky {
-  opacity: 0.5;
+
   background-color:black;
+
   background-image: radial-gradient(white, rgba(255,255,255,.2) 2px, transparent     40px),
   radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
   radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
@@ -273,10 +274,13 @@ transform: translateX(50%) rotateZ(45deg);
 border-radius: 100%;
 -webkit-animation: shining 3000ms ease-in-out infinite;
 animation: shining 3000ms ease-in-out infinite;
+
 }
 .star::after {
+
 -webkit-transform: translateX(50%) rotateZ(-45deg);
 transform: translateX(50%) rotateZ(-45deg);
+
 }
 
 /* Here we are adding location of each
@@ -328,8 +332,9 @@ animation-delay: 7000ms;
 animation-delay: 7000ms;
 }
 .star:nth-child(5) {
-top: calc(40% - 146px);
-left: calc(60% - 112px);
+    opacity: 0.5;
+top: calc(40% - 180px);
+left: calc(60% - 290px);
 -webkit-animation-delay: 3000ms;
 animation-delay: 3000ms;
 }
@@ -339,8 +344,9 @@ animation-delay: 3000ms;
 animation-delay: 3000ms;
 }
 .star:nth-child(6) {
-top: calc(50% - -108px);
-left: calc(50% - 160px);
+opacity: 0.5;
+top: calc(55% - -108px);
+left: calc(45% - 160px);
 -webkit-animation-delay: 3000ms;
 animation-delay: 3000ms;
 }
@@ -350,6 +356,7 @@ animation-delay: 3000ms;
 animation-delay: 3000ms;
 }
 .star:nth-child(7) {
+opacity: 0.5;
 top: calc(20% - 52px);
 left: calc(80% - 72px);
 -webkit-animation-delay: 7000ms;
@@ -425,8 +432,8 @@ for shooting effect */
 	transform: translateX(0);
 }
 100% {
-	-webkit-transform: translateX(270px);
-	transform: translateX(270px);
+	-webkit-transform: translateX(70px);
+	transform: translateX(70px);
 }
 }
 
