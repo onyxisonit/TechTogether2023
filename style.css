@@ -43,20 +43,20 @@ html, body {
 .navhead {
   overflow: hidden;
   background-color: black;
-  font-size: 28px;
+  font-size: 25px;
+  text-align: center;
 }
 
 .navhead a{
   float: center;
   display: line;
   color: white;
-  text-align: center;
   padding: 50px;
   text-decoration: none;
 }
 
 .navhead a:hover{
-  font-size: 30px;
+  font-size: 28px;
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 .home {
@@ -101,6 +101,14 @@ body {
   display: flex; 
   flex-wrap: wrap;
   padding: 20px;
+    background-color: black;
+  background-image:
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent     40px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 
@@ -165,5 +173,37 @@ body {
 .footer{
   background-color:#1e001e;
   padding: 40px;
+}
+
+
+.left-column {
+  flex: 30%;
+ 
+  background-color: black;
+  padding: 40px;
+  color: white;
+  background-image:
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent     40px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+
+}
+
+.about{
+  flex: 50%;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  background-image:
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent     40px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
