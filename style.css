@@ -59,21 +59,18 @@ html, body {
   font-size: 28px;
   text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
-.home {
+
+body {
+  font-family:"Courier New", monospace;
+  margin: 0;
   background-color: black;
   background-image:
   radial-gradient(white, rgba(255,255,255,.2) 2px, transparent     40px),
   radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
   radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
   radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
-  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
- 
-}
-
-body {
-  font-family:"Courier New", monospace;
-  margin: 0;
+ background-size: cover;
  
 }
 
@@ -224,10 +221,10 @@ body {
 .quote{
   flex: 50%;
   background-color: black;
-  text-shadow: #320032 1px 0 10px;
   padding: 20px;
   color: white;
   text-align: center;
+  text-shadow: #320032 1px 0 10px;
   background-image:
   radial-gradient(white, rgba(255,255,255,.2) 2px, transparent     40px),
   radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
@@ -236,6 +233,7 @@ body {
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
+
 .community{
   background-color: black;
   color: white;
@@ -482,6 +480,44 @@ for shooting effect */
 	-webkit-transform: translateX(270px);
 	transform: translateX(270px);
 }
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 20px;
+  background-color: #04AA6D;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3; /* Blue */
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336; /* Red */
+}
+
+#contact {
+  top: 200px;
+  background-color: #555 /* Light Black */
 }
 
 
