@@ -37,21 +37,42 @@ html, body {
 .navbar {
   overflow: hidden;
   background-color: black;
+  text-align: center;
   font-size: 33px;
+  width: 100%;
+}
+
+.navbar a{
+  float: center;
+  display: wrap;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  text-decoration: none;
+  text-orientation:upright;
+  writing-mode: vertical-rl;
 
 }
+
+.navbar a:hover{
+  font-size: 35px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  color: white;
+}
+
 .navhead {
   overflow: hidden;
   background-color: black;
   font-size: 25px;
   text-align: center;
+  width: 100%;
 }
 
 .navhead a{
   float: center;
   display: line;
   color: white;
-  padding: 50px;
+  padding: 30px;
   text-decoration: none;
 }
 
@@ -71,35 +92,9 @@ body {
   radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
  background-size: cover;
+  display: wrap;
  
 }
-
-.navbar a{
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 50px;
-  text-decoration: none;
-  text-orientation:upright;
-  writing-mode: vertical-rl;
-  margin-left: 50px;
-  margin-right: 50px;
-    background-image: radial-gradient(white, rgba(255,255,255,.2) 2px, transparent     40px),
-  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
-  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
-  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-}
-
-.navbar a:hover{
-  font-size: 35px;
-  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-  color: white;
-}
-
-
 
 .row {
   display: flex; 
@@ -111,7 +106,7 @@ body {
   radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
   radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
   radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
-  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+  background-size: cover; 
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
@@ -502,22 +497,35 @@ for shooting effect */
 /* The about link: 20px from the top with a green background */
 #about {
   top: 20px;
-  background-color: #04AA6D;
+  background-color: #555;
 }
 
 #blog {
   top: 80px;
-  background-color: #2196F3; /* Blue */
+  background-color: #555; 
 }
 
 #projects {
   top: 140px;
-  background-color: #f44336; /* Red */
+  background-color: #555;
 }
 
 #contact {
   top: 200px;
   background-color: #555 /* Light Black */
+}
+
+.abody {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.ahead {
+  font-size: 33px;
+  color: white;
+  text-align: center;
+  font-weight: 150;
 }
 
 
